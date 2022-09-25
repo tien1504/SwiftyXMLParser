@@ -99,6 +99,12 @@ open class XML {
         return Parser(trimming: manner, ignoreNamespaces: ignoreNamespaces).parse(data)
     }
     
+    open class func parseToGetTextMapping(_ data: Data, trimming manner: CharacterSet? = nil, ignoreNamespaces: Bool = false) -> (document: String, mappings: [RangeMapping]) {
+        let parser = Parser(trimming: manner, ignoreNamespaces: ignoreNamespaces)
+        parser.parse(data)
+        return (parser.text, parser.rangeMappings)
+    }
+    
     /**
      Interface to parse String
      
