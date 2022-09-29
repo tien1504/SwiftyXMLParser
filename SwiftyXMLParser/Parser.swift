@@ -114,6 +114,9 @@ extension XML {
             if elementName == "p" && text.count > 0{
                 text.append(.breakLine)
             }
+            if elementName == "br"{
+                text.append(.breakLine)
+            }
         }
         
         func parser(_ parser: XMLParser, foundCharacters string: String) {
