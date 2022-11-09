@@ -1,0 +1,24 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-US">
+            <voice name="en-US-JennyNeural">
+                <br/>
+                                <br/>
+                <p>
+                    Introducing the sentence element.
+                    <mstts:silence  type="Sentenceboundary" value="100ms"/>
+                    Used to mark individual sentences.
+                </p>
+                <p>
+                    <prosody rate="-30.00%">
+                        Welcome to Microsoft Cognitive Services Text-to-Speech API.
+                    </prosody>
+                    Another simple paragraph. Sentence structure in this paragraph is not explicitly marked. I can help you join your <emphasis level="moderate">meetings</emphasis> fast.
+                </p>
+                <br/>
+                <mstts:express-as style="cheerful">
+                    That'd be just amazing!
+                </mstts:express-as>
+            </voice>
+            <voice name="en-US-ChristopherNeural">
+                Good morning to you too Jenny!
+            </voice>
+        </speak>

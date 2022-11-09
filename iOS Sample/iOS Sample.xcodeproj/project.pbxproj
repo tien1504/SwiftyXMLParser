@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1316162728E04F2E00571A99 /* file5.ssml in Resources */ = {isa = PBXBuildFile; fileRef = 1316162628E046CA00571A99 /* file5.ssml */; };
+		13F0F29528E013C300645A3E /* file4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 13F0F29428E013C300645A3E /* file4.txt */; };
+		13F0F29728E013C700645A3E /* times4.json in Resources */ = {isa = PBXBuildFile; fileRef = 13F0F29628E013C700645A3E /* times4.json */; };
 		2B7F2E31217DC3A700523F2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F2E30217DC3A700523F2E /* AppDelegate.swift */; };
 		2B7F2E33217DC3A700523F2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F2E32217DC3A700523F2E /* ViewController.swift */; };
 		2B7F2E36217DC3A700523F2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7F2E34217DC3A700523F2E /* Main.storyboard */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1316162628E046CA00571A99 /* file5.ssml */ = {isa = PBXFileReference; lastKnownFileType = text; path = file5.ssml; sourceTree = "<group>"; };
+		13F0F29428E013C300645A3E /* file4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file4.txt; sourceTree = "<group>"; };
+		13F0F29628E013C700645A3E /* times4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = times4.json; sourceTree = "<group>"; };
 		2B7F2E2D217DC3A700523F2E /* iOS Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7F2E30217DC3A700523F2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B7F2E32217DC3A700523F2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +109,9 @@
 		2B7F2E2F217DC3A700523F2E /* iOS Sample */ = {
 			isa = PBXGroup;
 			children = (
+				13F0F29428E013C300645A3E /* file4.txt */,
+				1316162628E046CA00571A99 /* file5.ssml */,
+				13F0F29628E013C700645A3E /* times4.json */,
 				2B7F2E30217DC3A700523F2E /* AppDelegate.swift */,
 				2B7F2E32217DC3A700523F2E /* ViewController.swift */,
 				2B7F2E34217DC3A700523F2E /* Main.storyboard */,
@@ -243,9 +252,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1316162728E04F2E00571A99 /* file5.ssml in Resources */,
 				2B7F2E3B217DC3A900523F2E /* LaunchScreen.storyboard in Resources */,
 				2B7F2E38217DC3A900523F2E /* Assets.xcassets in Resources */,
+				13F0F29728E013C700645A3E /* times4.json in Resources */,
 				2B7F2E36217DC3A700523F2E /* Main.storyboard in Resources */,
+				13F0F29528E013C300645A3E /* file4.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

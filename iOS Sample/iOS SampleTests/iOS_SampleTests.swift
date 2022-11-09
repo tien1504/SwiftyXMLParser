@@ -38,6 +38,12 @@ class iOS_SampleTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let range = "!".rangeOfCharacter(from: .punctuationCharacters)
+        XCTAssertNotNil(range)
+        
+        let str = "aaa,"
+        XCTAssertTrue(str.last!.isPunctuation)
     }
 
     func testPerformanceExample() {

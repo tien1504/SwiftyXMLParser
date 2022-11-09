@@ -145,9 +145,9 @@ extension XML {
                     }
                     
                     let str2 = originalText[start..<end]//.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
-                    if let last = text.last, !last.isNewline{
-                        text.append(.whitespace)
-                    }
+//                    if let last = text.last, !last.isNewline{
+//                        text.append(.whitespace)
+//                    }
                     
                     let orgRange: Range<Int> = start..<(start+str2.count)
                     let newRange: Range<Int> = text.count..<(text.count+str2.count)

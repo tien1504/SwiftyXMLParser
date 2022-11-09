@@ -31,6 +31,26 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        // parse xml document
+        let data = try! Data(contentsOf: Bundle.main.url(forResource: "file5", withExtension: "ssml")!)
+        
+        
+        
+        //let xml = try! XML.parse(data)
+        let result = XML.parseToGetTextMapping(data)
+        print(result.document)
+        print(result.mappings)
+        //print(p)
+//        if let text = xml["ResultSet", "Result", "Hit", 0, "Name"].text {
+//            print(text)
+//        }
+//        let t = xml["speak", "voice", "p", "s"]
+//        print(t.text)
+//        let s0 = xml.speak.voice.p[0].s[0]
+//        print(s0.text)
+//        if let e = s0.element{
+//            print(e.lineNumberStart, e.columnNumberStart, e.lineNumberEnd, e.columnNumberEnd)
+//        }
     }
 
 
